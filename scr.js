@@ -36,8 +36,8 @@ function setup() {
   strokeWeight(2);
   let a = random(0, 35);
   let b = random(100, 210);
-  x2 = random(300,width-300);
-  y2 = random(300,height-300);
+  x2 = random(250,width-250);
+  y2 = random(250,height-250);
   powerTurning = random()
   colorMode(HSB, 255);
   for (let i = 0; i < 600; i++) {
